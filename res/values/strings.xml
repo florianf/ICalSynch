@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connectToServer">Synchronize Calendar</string>
+    <string name="removeCalendarFromPhone">Remove Calendar</string>
+    <string name="applicationName">ICal Synch</string>
+	<string name="preferences">Preferences</string>
+	<string name="remoteCalendarPreferences">Remote Calendar File Preferences</string>
+	<string name="preferencesIncomplete">Your preferences seem to be incomplete, please set them up in the preferences menu!</string>
+	<string name="ok">Ok</string>
+	<string name="no">No</string>
+	<string name="yes">Yes</string>
+	<string name="confirmRemoval">Confirm Removal</string>
+	<string name="confirmRemovalText">Do you really want to remove the calendar from your phone?</string>
+	<string name="calendarWasRemoved">Calendar successfully removed from your phone!</string>
+	<string name="synchronizationComplete">Synchronization complete!</string>
+	<string name="removingCalendarEntries">Removing calendar entries...</string>
+	<string name="writingCalendarEntries">Writing local calendar entries...</string>
+	<string name="couldNotAccessLocalCalendar">Could not access local calendar!</string>
+	<string name="anErrorOccured">Sorry, an error occured...</string>
+	<string name="internalError">Internal error</string>
+	<string name="errorWhenCreatingCalendar">Error when creating calendar on your phone! Make sure that a calendar application is installed.</string>
+	<string name="unknownHostException">Could not connect to server! Check your network access.</string>
+	
+	<string name="parsingIcalFile">Parsing ICal File...</string>
+	<string name="downloading">Downloading...</string>
+	<string name="couldnotConnectToRemoteserver">Could not connect to remote server!</string>
+	<string name="remoteFileTooLarge">Remote file to large!</string>
+	<string name="remoteFileNotFound">Remote file not found!</string>
+	<string name="accessDenied">Remote server denied access, check your username and password!</string>
+	<string name="couldnotDownloadFile">Could not download remote file!</string>
+	<string name="pleaseWait">Please wait...</string>
+	<string name="errorMessage">Error: </string>
+	
+	<string name="remoteAddressDescr">Complete URL address of calendar file</string>
+	<string name="remoteAddressTitle">URL</string>
+	<string name="remoteAddressKey">remoteAddress</string>
+	
+	<string name="usernameTitle">Username</string>
+	<string name="usernameDescr">Username for HTTP authentication</string>
+	<string name="usernameKey">username</string>
+	
+	<string name="passwordTitle">Password</string>
+	<string name="passwordDescr">Password for HTTP authentication</string>
+	<string name="passwordKey">password</string>
+	
+	<string name="useHttpAuthenticationTitle">HTTP Authentication</string>
+	<string name="useHttpAuthenticationDescr">Remote server requires authentication</string>
+	<string name="useHttpAuthenticationKey">useHttpAuthentication</string>
+	
+	<string name="calendarPreferences">Calendar Preferences</string>
+	<string name="calendarNameTitle">Name of Calendar</string>
+	<string name="calendarNameDescr">Name of calendar in application on your phone</string>
+	<string name="calendarNameKey">calendarName</string>	
+	<string name="calendarNameDefault">Remote ICal Calendar</string>	
+	
+	
+	<string name="timeZonePreferences">Time Zone Preferences</string>
+
+	<string name="localTimeZoneTitle">Local Time Zone</string>
+	<string name="localTimeZoneDescr">Only change if calendar event times are incorrect.</string>
+	<string name="localTimeZoneKey">localTimezone</string>	
+	<string name="localTimeZoneDefault">DEFAULT</string>	
+
+	<string name="icalTimeZoneTitle">ICal default Time Zone</string>
+	<string name="icalTimeZoneDescr">Only change if calendar event times are incorrect.</string>
+	<string name="icalTimeZoneKey">localTimezone</string>		
+	<string name="icalTimeZoneDefault">DEFAULT</string>	
+	
+	<string-array name="timeZoneNames">
+		<item>Default</item>
+		<item>Europe / Berlin (CET)</item>
+		<item>Europe / Kiev (EST)</item>
+		<item>Europe / Moscow (MSK)</item>
+		<item>GMT</item>
+		<item>UTC</item>
+	</string-array>
+	
+	<string-array name="timeZoneValues">
+		<item>DEFAULT</item>
+		<item>Europe/Berlin</item>
+		<item>Europe/Kiev</item>
+		<item>Europe/Moscow</item>
+		<item>GMT</item>
+		<item>UTC</item>
+	</string-array>
+	
+	<string name="encodingPreferences">ICal File Encoding Preferences</string>
+
+	<string name="icalFileEncodingTitle">Encoding of ICal File</string>
+	<string name="icalFileEncodingDescr">Only change if special characters are not displayed correctly.</string>
+	<string name="icalFileEncodingKey">icalFileEncoding</string>
+	<string name="icalFileEncodingDefault">UTF-8</string>
+
+	<string-array name="encodingNames">
+		<item>Default</item>
+		<item>UTF-8</item>
+		<item>ISO-LATIN-15</item>
+	</string-array>
+	
+	<string-array name="encodingValues">
+		<item>UTF-8</item>
+		<item>UTF-8</item>
+		<item>ISO-8859-1</item>
+	</string-array>
+	
+	
+	
+
+</resources>

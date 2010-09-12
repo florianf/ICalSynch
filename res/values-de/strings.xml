@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connectToServer">Synchronisieren</string>
+    <string name="removeCalendarFromPhone">Kalender entfernen</string>
+    <string name="applicationName">ICal Synch</string>
+	<string name="preferences">Einstellungen</string>
+	<string name="remoteCalendarPreferences">Internetkalender Einstellungen</string>
+	<string name="preferencesIncomplete">Die Einstellungen scheinen nicht vollständig zu sein, bitte kontrollieren.</string>
+	<string name="ok">Ok</string>
+	<string name="no">Nein</string>
+	<string name="yes">Ja</string>
+	<string name="confirmRemoval">Entfernen bestätigen</string>
+	<string name="confirmRemovalText">Wollen Sie den Kalender wirklich entfernen?</string>
+	<string name="calendarWasRemoved">Kalender erfolgreich entfernt!</string>
+	<string name="synchronizationComplete">Synchronisation abegschlossen!</string>
+	<string name="removingCalendarEntries">Löschen Kalendereinträge...</string>
+	<string name="writingCalendarEntries">Schreibe Kalendereinträge...</string>
+	<string name="couldNotAccessLocalCalendar">Konnte nicht auf lokalen Kalender zugreifen!</string>
+	<string name="anErrorOccured">Ein Fehler ist aufgetreten...</string>
+	<string name="internalError">Interner Fehler</string>
+	<string name="errorWhenCreatingCalendar">Fehler beim Erzeugen des Kalenders. Stellen Sie sicher, dass eine Kalenderapplikation installiert ist.</string>
+	<string name="unknownHostException">Konnte nicht zum Server verbinden, überprüfen Sie den Netzzugriff.</string>
+	
+	<string name="parsingIcalFile">Lese ICal Datei ein...</string>
+	<string name="downloading">Herunterladen...</string>
+	<string name="couldnotConnectToRemoteserver">Konnte nicht zum Server verbinden!</string>
+	<string name="remoteFileTooLarge">ICal Datei zu groß!</string>
+	<string name="remoteFileNotFound">ICal Datei am Server nicht gefunden!</string>
+	<string name="accessDenied">Anmeldung am Server fehlgeschlagen, überprüfen Sie Benutzername und Passwort!</string>
+	<string name="couldnotDownloadFile">Konnte Datei nicht herunterladen!</string>
+	<string name="pleaseWait">Bitte warten...</string>
+	<string name="errorMessage">Fehlermeldung: </string>
+	
+	<string name="remoteAddressDescr">URL der Kalenderdatei</string>
+	<string name="remoteAddressTitle">URL</string>
+	<string name="remoteAddressKey">remoteAddress</string>
+	
+	<string name="usernameTitle">Benutzername</string>
+	<string name="usernameDescr">Benutzername für HTTP Anmeldung</string>
+	<string name="usernameKey">username</string>
+	
+	<string name="passwordTitle">Passwort</string>
+	<string name="passwordDescr">Passwort für HTTP Anmeldung</string>
+	<string name="passwordKey">password</string>
+	
+	<string name="useHttpAuthenticationTitle">HTTP Anmeldung</string>
+	<string name="useHttpAuthenticationDescr">Server verlangt eine Anmeldung</string>
+	<string name="useHttpAuthenticationKey">useHttpAuthentication</string>
+	
+	<string name="calendarPreferences">Kalendereinstellungen</string>
+	<string name="calendarNameTitle">Name des Kalenders</string>
+	<string name="calendarNameDescr">Name des Kalenders in Ihrer Kalenderanwendung</string>
+	<string name="calendarNameKey">calendarName</string>	
+	<string name="calendarNameDefault">ICal Kalender</string>	
+	
+	
+	<string name="timeZonePreferences">Zeitzonen Einstellungen</string>
+
+	<string name="localTimeZoneTitle">Lokale Zeitzone</string>
+	<string name="localTimeZoneDescr">Ändern Sie diese Einstellung nur, wenn die Terminzeiten nicht stimmen.</string>
+	<string name="localTimeZoneKey">localTimezone</string>	
+	<string name="localTimeZoneDefault">DEFAULT</string>	
+
+	<string name="icalTimeZoneTitle">ICal Standardzeitzone</string>
+	<string name="icalTimeZoneDescr">Ändern Sie diese Einstellung nur, wenn die Terminzeiten nicht stimmen.</string>
+	<string name="icalTimeZoneKey">localTimezone</string>		
+	<string name="icalTimeZoneDefault">DEFAULT</string>	
+	
+	<string-array name="timeZoneNames">
+		<item>Standard</item>
+		<item>Europa / Berlin (MEZ)</item>
+		<item>Europa / Kiev (EST)</item>
+		<item>Europa / Moskau (MSK)</item>
+		<item>GMT</item>
+		<item>UTC</item>
+	</string-array>
+	
+	<string-array name="timeZoneValues">
+		<item>DEFAULT</item>
+		<item>Europe/Berlin</item>
+		<item>Europe/Kiev</item>
+		<item>Europe/Moscow</item>
+		<item>GMT</item>
+		<item>UTC</item>
+	</string-array>
+	
+	<string name="encodingPreferences">ICal Datei Kodierung</string>
+
+	<string name="icalFileEncodingTitle">Kodierung der ICal Datei</string>
+	<string name="icalFileEncodingDescr">Ändern Sie diese Einstellung nur, falls Umlaute nicht angezeigt werden.</string>
+	<string name="icalFileEncodingKey">icalFileEncoding</string>
+	<string name="icalFileEncodingDefault">UTF-8</string>
+
+	<string-array name="encodingNames">
+		<item>UTF-8 (Default)</item>
+		<item>ISO-LATIN-15</item>
+	</string-array>
+	
+	<string-array name="encodingValues">
+		<item>UTF-8</item>
+		<item>ISO-8859-1</item>
+	</string-array>
+	
+	
+	
+
+</resources>

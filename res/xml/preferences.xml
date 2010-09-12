@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/remoteCalendarPreferences">
+ <EditTextPreference
+                android:defaultValue=""
+                android:title="@string/remoteAddressTitle" android:summary="@string/remoteAddressDescr" android:key="@string/remoteAddressKey"/>
+<CheckBoxPreference
+                 android:title="@string/useHttpAuthenticationTitle"
+                 android:defaultValue="false"
+                 android:summary="@string/useHttpAuthenticationDescr" android:key="@string/useHttpAuthenticationKey"/>
+<EditTextPreference android:summary="@string/usernameDescr" android:title="@string/usernameTitle" android:key="@string/usernameKey"></EditTextPreference>
+<EditTextPreference  android:password="true" android:summary="@string/passwordDescr" android:key="@string/passwordKey" android:title="@string/passwordTitle"></EditTextPreference>
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/calendarPreferences"><EditTextPreference android:key="@string/calendarNameKey" android:summary="@string/calendarNameDescr" android:title="@string/calendarNameTitle"></EditTextPreference>
+</PreferenceCategory><PreferenceCategory android:title="@string/timeZonePreferences"><ListPreference android:title="@string/localTimeZoneTitle" android:summary="@string/localTimeZoneDescr" android:entryValues="@array/timeZoneValues" android:entries="@array/timeZoneNames" android:key="@string/localTimeZoneKey" android:defaultValue="@string/localTimeZoneDefault"></ListPreference>
+<ListPreference android:title="@string/icalTimeZoneTitle" android:summary="@string/icalTimeZoneDescr" android:entryValues="@array/timeZoneValues" android:entries="@array/timeZoneNames" android:key="@string/icalTimeZoneKey" android:defaultValue="@string/icalTimeZoneDefault"></ListPreference>
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/encodingPreferences"><ListPreference android:entryValues="@array/encodingValues" android:title="@string/icalFileEncodingTitle" android:entries="@array/encodingNames" android:summary="@string/icalFileEncodingDescr" android:key="@string/icalFileEncodingKey" android:defaultValue="@string/icalFileEncodingDefault"></ListPreference>
+</PreferenceCategory>
+
+</PreferenceScreen>
