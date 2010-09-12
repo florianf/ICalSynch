@@ -1,0 +1,7 @@
+Simple ICal Synchronisation for Android Phones.
+
+Attention:
+==========
+
+Currently writing of ICal files is NOT supported! That means you can import your remote ICal in your phone's calendar, 
+but not synchronise it back to the server.
