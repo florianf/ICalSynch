@@ -184,9 +184,7 @@ public class HttpDownloadThread extends ProgressThread {
         
         ClientConnectionManager cm = new ThreadSafeClientConnManager(params, schemeRegistry);
         DefaultHttpClient client = new DefaultHttpClient(cm, params);
-        
-        // new UsernamePasswordCredentials("18167-kalender@web.dav", "drx135sat"));
-        
+                
         if (useAuthentication) {
 	        client.getCredentialsProvider().setCredentials(
 	                new AuthScope(AuthScope.ANY_HOST, AuthScope.ANY_PORT),
